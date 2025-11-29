@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentloaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("registration-form");
 
     const feedbackDiv = document.getElementById("form-feedback");
@@ -37,5 +37,5 @@ document.addEventListener("DOMContentloaded", () => {
             feedbackDiv.style.color = "#dc3545";
         }
     });
-   
+   console.log("DOM isfully loaded - script is running!");
 });
